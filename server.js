@@ -60,10 +60,10 @@ function toMap(params) {
 }
 
 app.use(rewrite("/template", "/template.html"))
-app.use(rewrite("/grid", "/grid.html"))
-app.use(rewrite("/holygrail", "/holygrail.html"))
-app.use(rewrite("/holygrail-template", "/holygrail-template.html"))
-app.use(rewrite("/holygrail-template-with-cards", "/holygrail-template-with-cards.html"))
+app.use(rewrite("/grid1", "/grid1.html"))
+app.use(rewrite("/grid2", "/grid2.html"))
+app.use(rewrite("/grid2-template", "/grid2-template.html"))
+app.use(rewrite("/grid2-template-cards", "/grid2-template-cards.html"))
 
 app.use(express.static("public"))
 

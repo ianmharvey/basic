@@ -1,16 +1,6 @@
 RewriteEngine on
-
-# Use whichever option you prefer:
-
-# RewriteCond %{REQUEST_FILENAME}\.html -f
-# RewriteRule ^(.*)$ $1.html [NC,L]
-
-RewriteRule template template.html
-RewriteRule grid grid.html
-RewriteRule holygrail holygrail.html
-RewriteRule holygrail-template holygrail-template.html
-RewriteRule holygrail-template-with-cards holygrail-template-with-cards.html
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
 
 # error handling
-
 ErrorDocument 404  /pagenotfound.html
