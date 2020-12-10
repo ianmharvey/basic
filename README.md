@@ -17,4 +17,6 @@ Amazingly simple and responsive templates built with CSS Grid and Flexbox.
 
 ## Demo
 
-View demo at https://basic.ianharvey.ca/
+View demo:
+https://basic.ianharvey.ca/
+https://master.d3vu1f1qt2falk.amplifyapp.com/
